@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22587C03-38D8-4F8C-83A0-E79D34EFBE13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1066C2C8-8C5D-4B04-BB03-05B9397EAEED}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WoodenMoose.AspNetCore.SwaggerGen", "src\WoodenMoose.AspNetCore.SwaggerGen\WoodenMoose.AspNetCore.SwaggerGen.xproj", "{53B725FE-D84B-4255-9980-561D28495443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A3FECC8D-83F4-44EF-934F-9FCCA8AEA858}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sample.WebAPI", "samples\Sample.WebAPI\Sample.WebAPI.xproj", "{8157C829-502C-4E9E-8CBC-F103859F194A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B725FE-D84B-4255-9980-561D28495443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B725FE-D84B-4255-9980-561D28495443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B725FE-D84B-4255-9980-561D28495443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B725FE-D84B-4255-9980-561D28495443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8157C829-502C-4E9E-8CBC-F103859F194A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8157C829-502C-4E9E-8CBC-F103859F194A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8157C829-502C-4E9E-8CBC-F103859F194A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8157C829-502C-4E9E-8CBC-F103859F194A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53B725FE-D84B-4255-9980-561D28495443} = {22587C03-38D8-4F8C-83A0-E79D34EFBE13}
+		{8157C829-502C-4E9E-8CBC-F103859F194A} = {A3FECC8D-83F4-44EF-934F-9FCCA8AEA858}
+	EndGlobalSection
+EndGlobal

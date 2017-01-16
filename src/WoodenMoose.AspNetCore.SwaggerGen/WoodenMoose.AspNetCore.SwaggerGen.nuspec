@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WoodenMoose.AspNetCore.SwaggerGen</id>
+    <version>1.0.0-rc1</version>
+    <title>WoodenMoose.AspNetCore.SwaggerGen</title>
+    <authors>Timothé Larivière</authors>
+    <owners>Timothé Larivière</owners>
+    <projectUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.SwaggerGen</projectUrl>
+    <description>A small library for ASP.NET Core that allows to more finely tune Swagger API description generation</description>
+    <copyright>Copyright Timothé Larivière 2017</copyright>
+    <dependencies>
+      <dependency id="Swashbuckle.SwaggerGen" version="1.0.0-rc1" />
+      <dependency id="NETStandard.Library" version="1.6.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.6\WoodenMoose.AspNetCore.SwaggerGen.dll" target="lib\netstandard1.6" />
+    <file src="bin\Release\netstandard1.6\WoodenMoose.AspNetCore.SwaggerGen.xml" target="lib\netstandard1.6" />
+  </files>
+</package>

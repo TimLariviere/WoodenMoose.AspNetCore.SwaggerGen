@@ -1,0 +1,18 @@
+{
+  "copyright": "WoodenMoose",
+  "title": "WoodenMoose.AspNetCore.SwaggerGen",
+  "description": "A small library for ASP.NET Core that allows to more finely tune Swagger API description generation",
+  "version": "1.0.0-rc1",
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+    "Swashbuckle.AspNetCore.SwaggerGen": "1.0.0-rc1"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
+}
