@@ -16,11 +16,12 @@ A NuGet package of the library is available here : https://www.nuget.org/package
 Features
 -------
 Available operation filters
-Name|Description|Swagger field
-----|----|----
-SwaggerConsumesOperationFilter|Change the accepted content type(s) for an action|consumes
-SwaggerOperationNameOperationFilter|Change the operation id of an action (used by code generators to name methods)|operationId
-SwaggerGroupOperationFilter|Change the grouping of actions on SwaggerUi|tags
+
+Name                                | Description                                                                    | Swagger field
+------------  | ------------  | ------------ 
+SwaggerConsumesOperationFilter      | Change the accepted content type(s) for an action                              | consumes
+SwaggerOperationNameOperationFilter | Change the operation id of an action (used by code generators to name methods) | operationId
+SwaggerGroupOperationFilter         | Change the grouping of actions on SwaggerUi                                    | tags
 
 Usage
 -------
