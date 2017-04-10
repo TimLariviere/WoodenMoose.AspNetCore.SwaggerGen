@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>A small library for ASP.NET Core that allows to more finely tune Swagger API description generation</Description>
-    <Copyright>WoodenMoose</Copyright>
+    <Copyright>Copyright Timothé Larivière 2017</Copyright>
     <AssemblyTitle>WoodenMoose.AspNetCore.SwaggerGen</AssemblyTitle>
     <VersionPrefix>1.0.0-rc1</VersionPrefix>
     <TargetFramework>netstandard1.6</TargetFramework>
@@ -14,6 +14,10 @@
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>1.0.0-rc3</Version>
+    <Authors>Timothé Larivière</Authors>
+    <PackageProjectUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.SwaggerGen</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.SwaggerGen</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="1.0.0-rc1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="1.0.0-rc3" />
   </ItemGroup>
 
 </Project>

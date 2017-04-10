@@ -28,6 +28,11 @@ namespace Sample.WebAPI
         {
             services.AddSwaggerGen(options =>
             {
+                options.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Sample API"
+                });
                 options.OperationFilter<SwaggerConsumesOperationFilter>();
                 options.OperationFilter<SwaggerOperationNameOperationFilter>();
                 options.OperationFilter<SwaggerGroupOperationFilter>();
@@ -44,7 +49,7 @@ namespace Sample.WebAPI
 
             app.UseMvc();
             app.UseSwagger();
-            app.UseSwaggerUi();
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1"); });
         }
     }
 }
