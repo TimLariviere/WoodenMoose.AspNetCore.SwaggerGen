@@ -18,7 +18,15 @@
     <Authors>Timothé Larivière</Authors>
     <PackageProjectUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.SwaggerGen</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TimLariviere/WoodenMoose.AspNetCore.SwaggerGen</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <None Remove="WoodenMoose.AspNetCore.SwaggerGen.nuspec" />
